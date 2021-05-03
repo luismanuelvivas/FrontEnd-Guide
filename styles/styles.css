@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -8,12 +9,61 @@ body{
     height:100px;
     background: #72147e;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h1{
-    font-family: 'Open Sans', sans-serif;
-    color :white;
     align-items: center;
-    margin-left:15px;
+    margin-left:35px;
+    transition: 0.4s;
+    font-weight:bold;
+    font-size:40px;
 }
+
+.header h1 a{
+    color :white;
+    text-decoration:none;
+}
+
+.header h1:hover{
+    font-size:45px;
+}
+
+.header ul{
+    list-style:none;
+    display:flex;
+}
+
+.header ul li{
+    margin-right: 60px;
+}
+
+.header ul li a{ 
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.header ul li a:hover{
+    font-size:20px;
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 768px) {
+
+.header ul li a{
+    font-size:14px;
+}
+
+.header ul li a:hover{
+    font-size:16px;
+}
+  }
+
+
+
+
+
 
