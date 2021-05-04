@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
     padding:0;
@@ -55,6 +59,9 @@ body{
 section{
     width:100%;
     height:600px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .material-icons{
@@ -63,10 +70,21 @@ section{
     transition:0.3s;
 }
 
-.material-icons:hover{
+.section1 .material-icons:hover{
     font-size:80px;
-    color:#72147e;
+    color:#fdca40;
 }
+
+#mid-section1 .material-icons:hover{
+    font-size:80px;
+    color:#a799b7;
+}
+
+#mid-section2 .material-icons:hover{
+    font-size:80px;
+    color:#fb3640;
+}
+
 
 .section1{
     background: #fb3640;
@@ -98,6 +116,142 @@ section{
 .section4{
     background: #fb3640;
 }
+
+.aside1{
+    width:35%;
+    height:500px;
+    background: white;
+}
+
+.aside2{
+    width:35%;
+    height:500px;
+}
+
+aside{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 80px;
+}
+
+aside h2{
+    font-size: 38px;
+}
+
+
+aside p {
+    text-align:center;
+    font-size:20px;
+    margin:10px;
+}
+
+aside button{
+    width:30%;
+    height:45px;
+    margin-top:35px;
+    font-size:24px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+aside button:hover{
+    width:32%;
+    height:55px;
+    font-size:26px;
+    cursor:pointer;
+    
+}
+
+/* SECTION 2  */
+
+.section2 aside h2{
+    color:#fdca40;
+}
+
+.section2 aside button{
+    background: rgba(253, 202, 64,0.8);
+    color:white;
+    border: solid 1px #fdca40 ;
+}
+
+.section2 aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#fdca40;
+    border: solid 1px #fdca40 ;
+}
+
+/* SECTION 3  */
+
+.section3 aside h2{
+    color:#a799b7;
+}
+
+.section3 aside button{
+    background: rgba(167, 153, 183,0.8);
+    color:white;
+    border: solid 1px #a799b7 ;
+}
+
+.section3 aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#a799b7;
+    border: solid 1px #a799b7 ;
+}
+
+/* SECTION 3  */
+
+.section3 aside h2{
+    color:#a799b7;
+}
+
+.section3 aside button{
+    background: rgba(167, 153, 183,0.8);
+    color:white;
+    border: solid 1px #a799b7 ;
+}
+
+.section3 aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#a799b7;
+    border: solid 1px #a799b7 ;
+}
+
+/* SECTION 3  */
+
+.section4 aside h2{
+    color:#fb3640;
+}
+
+.section4 aside button{
+    background: rgba(251, 54, 64,0.8);
+    color:white;
+    border: solid 1px #fb3640 ;
+}
+
+.section4 aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#fb3640;
+    border: solid 1px #fb3640 ;
+}
+
+/* MID SECTIONS   */
+.mid-section{
+    width:100%;
+    height:150px;
+}
+
+#mid-section1{
+    background:#fdca40;
+}
+
+#mid-section2{
+    background:#a799b7;
+}
+
+
+/* RESPONSIVE */
 
 @media only screen and (max-width: 768px) {
 
