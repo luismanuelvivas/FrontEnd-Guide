@@ -52,28 +52,6 @@ body{
     font-weight:bold;
 }
 
-/* CONTENT */
-
-section{
-    width:100%;
-    height:600px;
-}
-
-.section1{
-    background: #fb3640;
-}
-
-.section2{
-    background: #fdca40;
-}
-
-.section3{
-    background: #a799b7;
-}
-
-.section4{
-    background: #fb3640;
-}
 
 
 @media only screen and (max-width: 768px) {
