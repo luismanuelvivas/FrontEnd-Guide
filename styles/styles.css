@@ -150,7 +150,7 @@ section{
     background-position:right; 
 }
 
-aside{
+section aside{
     display:flex;
     align-items:center;
     justify-content: flex-start;
