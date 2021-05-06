@@ -44,7 +44,7 @@ body{
     display:flex;
 
     /* Animations */
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: slidein-right;
 }
 
