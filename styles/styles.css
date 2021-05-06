@@ -309,6 +309,7 @@ aside button:hover{
 .footer a{
     color:white;
     text-decoration: none;
+    transition:0.2s;
 }
 
 .footer a:hover{
