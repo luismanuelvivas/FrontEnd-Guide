@@ -25,6 +25,9 @@ body{
     font-weight:bold;
     font-size:40px;
     
+    /* Animations */
+    animation-duration: 1s;
+    animation-name: slidein-left-header;
 }
 
 .header h1 a{
@@ -39,6 +42,10 @@ body{
 .header ul{
     list-style:none;
     display:flex;
+
+    /* Animations */
+    animation-duration: 2s;
+    animation-name: slidein-right;
 }
 
 .header ul li{
@@ -324,6 +331,18 @@ aside button:hover{
     }
   
     to {
+     opacity:100%;
+    }
+  }
+
+  @keyframes slidein-left-header {
+    from {
+      margin-left:-10%;
+      opacity:0%;
+    }
+  
+    to {
+     margin-left:35px;
      opacity:100%;
     }
   }
