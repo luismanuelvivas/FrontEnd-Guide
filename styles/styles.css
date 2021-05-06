@@ -68,6 +68,8 @@ section{
     font-size:70px;
     color:white;
     transition:0.3s;
+    animation-duration: 6s;
+    animation-name: shade;
 }
 
 .section1 .material-icons:hover{
@@ -98,11 +100,15 @@ section{
 .section1 h2{
     color:white;
     font-size: 38px;
+    animation-duration: 2s;
+    animation-name: shade;
 }
 
 .section1 p{
     color:white;
     margin:3%;
+    animation-duration: 6s;
+    animation-name: shade;
 }
 
 .section2{
@@ -123,6 +129,21 @@ section{
     background: white;
 }
 
+.section2 .aside1{
+    animation-duration: 3s;
+    animation-name: slidein-left;
+}
+
+.section3 .aside1{
+    animation-duration: 3s;
+    animation-name: slidein-right;
+}
+
+.section4 .aside1{
+    animation-duration: 3s;
+    animation-name: slidein-left;
+}
+
 .section2 .aside2{   
     background: url("https://i.postimg.cc/C50P7zFg/img1.png");
     width:45%;
@@ -130,6 +151,9 @@ section{
     background-repeat:no-repeat;
     background-size: 90%;
     background-position:right; 
+    
+    animation-duration: 3s;
+    animation-name: slidein-right;
 }
 
 .section3 .aside2{   
@@ -139,6 +163,9 @@ section{
     background-repeat:no-repeat;
     background-size: 90%;
     background-position:right; 
+
+    animation-duration: 3s;
+    animation-name: slidein-left;
 }
 
 .section4 .aside2{   
@@ -148,6 +175,9 @@ section{
     background-repeat:no-repeat;
     background-size: 90%;
     background-position:right; 
+    
+    animation-duration: 3s;
+    animation-name: slidein-right;
 }
 
 section aside{
@@ -271,6 +301,42 @@ aside button:hover{
 #mid-section2{
     background:#a799b7;
 }
+
+/* ANIMATIONS */
+
+@keyframes shade {
+    from {
+      opacity:0%;
+    }
+  
+    to {
+     opacity:100%;
+    }
+  }
+
+  @keyframes slidein-left {
+    from {
+      margin-left:-40%;
+      opacity:0%;
+    }
+  
+    to {
+     margin-left:0%;
+     opacity:100%;
+    }
+  }
+
+  @keyframes slidein-right {
+    from {
+      margin-right:-40%;
+      opacity:0%;
+    }
+  
+    to {
+     margin-left:0%;
+     opacity:100%;
+    }
+  }
 
 
 /* RESPONSIVE */
