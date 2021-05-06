@@ -79,7 +79,7 @@ section{
     transition:0.3s;
 
      /* Animations */
-    animation-duration: 6s;
+    animation-duration: 2s;
     animation-name: shade;
 }
 
@@ -122,7 +122,7 @@ section{
     margin:3%;
 
      /* Animations */
-    animation-duration: 6s;
+    animation-duration: 2s;
     animation-name: shade;
 }
 
