@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    overflow-x:hidden;
+    overflow: hidden;
 }
 
 body{
@@ -80,8 +80,12 @@ section{
     transition:0.3s;
 
      /* Animations */
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: shade;
+}
+
+#up-arrow{
+    transform: rotate(180deg);
 }
 
 .section1 .material-icons:hover{
@@ -94,9 +98,23 @@ section{
     color:#a799b7;
 }
 
+#mid-section1 #up-arrow:hover{
+    color:#fb3640;
+}
+
 #mid-section2 .material-icons:hover{
     font-size:80px;
     color:#fb3640;
+}
+
+#mid-section2 #up-arrow:hover{
+    font-size:80px;
+    color:#fdca40;
+}
+
+#mid-section3 #up-arrow:hover{
+    font-size:80px;
+    color:#a799b7;
 }
 
 
@@ -114,7 +132,7 @@ section{
     font-size: 38px;
 
      /* Animations */
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: shade;
 }
 
@@ -123,7 +141,7 @@ section{
     margin:3%;
 
      /* Animations */
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: shade;
 }
 
@@ -366,6 +384,10 @@ aside button:hover{
 .footer a:hover{
     font-weight:bold;
 }
+#mid-section3{
+    background:#fb3640;
+}
+
 /* ANIMATIONS */
 
 @keyframes shade {
