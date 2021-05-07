@@ -74,6 +74,10 @@ section{
     animation-name: shade;
 }
 
+#up-arrow{
+    transform: rotate(180deg);
+}
+
 .section1 .material-icons:hover{
     font-size:80px;
     color:#fdca40;
@@ -84,9 +88,23 @@ section{
     color:#a799b7;
 }
 
+#mid-section1 #up-arrow:hover{
+    color:#fb3640;
+}
+
 #mid-section2 .material-icons:hover{
     font-size:80px;
     color:#fb3640;
+}
+
+#mid-section2 #up-arrow:hover{
+    font-size:80px;
+    color:#fdca40;
+}
+
+#mid-section3 #up-arrow:hover{
+    font-size:80px;
+    color:#a799b7;
 }
 
 
@@ -312,6 +330,10 @@ aside button:hover{
 
 #mid-section2{
     background:#a799b7;
+}
+
+#mid-section3{
+    background:#fb3640;
 }
 
 /* ANIMATIONS */
