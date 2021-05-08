@@ -63,6 +63,7 @@ section{
     display:flex;
     align-items: center;
     justify-content: space-around;
+    border-top:solid white 3px;
 }
 
 .material-icons{
