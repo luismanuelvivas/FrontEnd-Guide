@@ -72,6 +72,7 @@ section{
     display:flex;
     align-items: center;
     justify-content: space-around;
+    border-top:solid white 3px;
 }
 
 .material-icons{
@@ -110,6 +111,11 @@ section{
 #mid-section2 #up-arrow:hover{
     font-size:80px;
     color:#fdca40;
+}
+
+#mid-section3 .material-icons:hover{
+    font-size:80px;
+    color:#72147e;
 }
 
 #mid-section3 #up-arrow:hover{
@@ -332,6 +338,8 @@ aside button:hover{
 .mid-section{
     width:100%;
     height:150px;
+    display: flex;
+    justify-content: center;
 }
 
 #mid-section1{
