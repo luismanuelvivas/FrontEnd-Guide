@@ -103,6 +103,11 @@ section{
     color:#fdca40;
 }
 
+#mid-section3 .material-icons:hover{
+    font-size:80px;
+    color:#72147e;
+}
+
 #mid-section3 #up-arrow:hover{
     font-size:80px;
     color:#a799b7;
