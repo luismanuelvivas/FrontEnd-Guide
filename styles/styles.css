@@ -202,8 +202,9 @@ section{
 }
 
 .section1 h2{
-    color: rgba(255,255,255,0);
+    color:white;
     font-size: 38px;
+    transition:1s;
 
      /* Animations */
     animation-duration: 3s;
@@ -211,16 +212,17 @@ section{
 }
 
 .section1 p{
-    color:rgba(0,0,0,0);
+    color:white;
     margin:3%;
+    transition:1s;
 
      /* Animations */
     animation-duration: 3s;
     animation-name: shade;
 }
 
-/* SECTION 1 ON */
-.section1-on{
+/* SECTION 1 OFF */
+.section1-off{
     background: #fb3640;
     display:flex;
     justify-content: center;
@@ -229,18 +231,20 @@ section{
     text-align:center;
 }
 
-.section1-on h2{
-    color:white;
+.section1-off h2{
+    color: rgba(255,255,255,0);
     font-size: 38px;
+    transition:0.3s;
 
      /* Animations */
     animation-duration: 3s;
     animation-name: shade;
 }
 
-.section1-on p{
-    color:white;
+.section1-off p{
+    color: rgba(255,255,255,0);
     margin:3%;
+    transition:0.3s;
 
      /* Animations */
     animation-duration: 3s;
@@ -251,7 +255,15 @@ section{
     background: #fdca40;
 }
 
+.section2-on{
+    background: #fdca40;
+}
+
 .section3{
+    background: #a799b7;
+}
+
+.section3-on{
     background: #a799b7;
 }
 
@@ -259,67 +271,14 @@ section{
     background: #fb3640;
 }
 
+.section4-on{
+    background: #fb3640;
+}
+
 .aside1{
     width:35%;
     height:500px;
     background: white;
-}
-
-.section2 .aside1{
-     /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-left;
-}
-
-.section3 .aside1{
-     /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-right;
-}
-
-.section4 .aside1{
-     /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-left;
-}
-
-.section2 .aside2{   
-    background: url("https://i.postimg.cc/C50P7zFg/img1.png");
-    width:45%;
-    height:600px;
-    background-repeat:no-repeat;
-    background-size: 90%;
-    background-position:right; 
-    
-     /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-right;
-}
-
-.section3 .aside2{   
-    background: url("https://i.postimg.cc/ZK5RsHsW/img2.png");
-    width:45%;
-    height:600px;
-    background-repeat:no-repeat;
-    background-size: 90%;
-    background-position:right; 
-
-     /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-left;
-}
-
-.section4 .aside2{   
-    background: url("https://i.postimg.cc/0yv2k1JZ/img3.png");
-    width:45%;
-    height:600px;
-    background-repeat:no-repeat;
-    background-size: 90%;
-    background-position:right; 
-
-    /* Animations */
-    animation-duration: 3s;
-    animation-name: slidein-right;
 }
 
 section aside{
@@ -358,7 +317,7 @@ aside button:hover{
     
 }
 
-/* SECTION 2  */
+/* SECTION 2 */
 
 .section2 aside h2{
     color:#fdca40;
@@ -376,6 +335,55 @@ aside button:hover{
     border: solid 1px #fdca40 ;
 }
 
+.section2 .aside1{
+    margin-left:-200%;
+    transition:1s;
+}
+
+.section2 .aside2{   
+    background: url("https://i.postimg.cc/C50P7zFg/img1.png");
+    width:45%;
+    height:600px;
+    background-repeat:no-repeat;
+    background-size: 90%;
+    background-position:right; 
+    transition:1s;
+
+    margin-right:-200%;
+}
+
+/* SECTION 2 ON */
+
+.section2-on aside h2{
+    color:#fdca40;
+}
+
+.section2-on aside button{
+    background: rgba(253, 202, 64,0.8);
+    color:white;
+    border: solid 1px #fdca40 ;
+}
+
+.section2-on aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#fdca40;
+    border: solid 1px #fdca40 ;
+}
+
+.section2-on .aside1{
+    transition:1s;
+}
+
+.section2-on .aside2{   
+    background: url("https://i.postimg.cc/C50P7zFg/img1.png");
+    width:45%;
+    height:600px;
+    background-repeat:no-repeat;
+    background-size: 90%;
+    background-position:right; 
+    transition:1s;
+}
+
 /* SECTION 3  */
 
 .section3 aside h2{
@@ -394,25 +402,56 @@ aside button:hover{
     border: solid 1px #a799b7 ;
 }
 
-/* SECTION 3  */
+.section3 .aside1{
+   margin-right:-100%;
+   transition: 1s;
+}
 
-.section3 aside h2{
+
+.section3 .aside2{   
+    background: url("https://i.postimg.cc/ZK5RsHsW/img2.png");
+    width:45%;
+    height:600px;
+    background-repeat:no-repeat;
+    background-size: 90%;
+    background-position:right; 
+    margin-left:-100%;
+    transition:1s;
+}
+
+/* SECTION 3 ON */
+
+.section3-on aside h2{
     color:#a799b7;
 }
 
-.section3 aside button{
+.section3-on aside button{
     background: rgba(167, 153, 183,0.8);
     color:white;
     border: solid 1px #a799b7 ;
 }
 
-.section3 aside button:hover{
+.section3-on aside button:hover{
     background: rgba(253, 202, 64,0);
     color:#a799b7;
     border: solid 1px #a799b7 ;
 }
 
-/* SECTION 3  */
+.section3-on .aside1{
+    transition: 1s;
+}
+
+.section3-on .aside2{   
+     background: url("https://i.postimg.cc/ZK5RsHsW/img2.png");
+     width:45%;
+     height:600px;
+     background-repeat:no-repeat;
+     background-size: 90%;
+     background-position:right; 
+     transition:1s;
+ }
+
+/* SECTION 4  */
 
 .section4 aside h2{
     color:#fb3640;
@@ -430,15 +469,65 @@ aside button:hover{
     border: solid 1px #fb3640 ;
 }
 
+.section4 .aside1{
+    margin-left:-100%;
+    transition:1s;
+}
+
+.section4 .aside2{   
+   background: url("https://i.postimg.cc/0yv2k1JZ/img3.png");
+   width:45%;
+   height:600px;
+   background-repeat:no-repeat;
+   background-size: 90%;
+   background-position:right; 
+
+   margin-right:-100%;
+   transition:1s;
+}
+
+/* SECTION 4 ON */
+
+.section4-on aside h2{
+    color:#fb3640;
+}
+
+.section4-on aside button{
+    background: rgba(251, 54, 64,0.8);
+    color:white;
+    border: solid 1px #fb3640 ;
+}
+
+.section4-on aside button:hover{
+    background: rgba(253, 202, 64,0);
+    color:#fb3640;
+    border: solid 1px #fb3640 ;
+}
+
+.section4-on .aside1{
+    transition:1s;
+}
+
+.section4-on .aside2{   
+   background: url("https://i.postimg.cc/0yv2k1JZ/img3.png");
+   width:45%;
+   height:600px;
+   background-repeat:no-repeat;
+   background-size: 90%;
+   background-position:right; 
+   transition: 1s;
+}
+
 /* MID SECTIONS   */
 .mid-section{
     width:100%;
     height:150px;
     display: flex;
     justify-content: center;
+    background: black;
 }
 
-#mid-section1{
+/* #mid-section1{
     background:#fdca40;
 }
 
@@ -452,7 +541,7 @@ aside button:hover{
 
 #mid-section4{
     background:#72147e;
-}
+} */
 
 /* FOOTER */
 .footer{
@@ -522,31 +611,6 @@ aside button:hover{
     }
   }
 
-  @keyframes slidein-left {
-    from {
-      margin-left:-40%;
-      opacity:0%;
-    }
-  
-    to {
-     margin-left:0%;
-     opacity:100%;
-    }
-  }
-
-  @keyframes slidein-right {
-    from {
-      margin-right:-40%;
-      opacity:0%;
-    }
-  
-    to {
-     margin-left:0%;
-     opacity:100%;
-    }
-  }
-
-
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1100px) {
@@ -571,6 +635,16 @@ aside button:hover{
     margin-top:40px;
 }
 
+/* SECTION 1 ON */
+
+.section1-on h2{
+    font-size: 28px;
+}
+
+.section1-on .material-icons{
+    margin-top:40px;
+}
+
 /* SECTION 2 */
 
 .section2{
@@ -585,6 +659,22 @@ aside button:hover{
 .section2 .aside2{
     display:none;
 }
+
+/* SECTION 2 ON */
+
+.section2-on{
+    display:flex;
+    flex-direction: column;
+}
+
+.section2-on .aside1{
+    width:90%;
+}
+
+.section2-on .aside2{
+    display:none;
+}
+
 
 /* SECTION 3 */
 
@@ -601,6 +691,21 @@ aside button:hover{
     display:none;
 }
 
+/* SECTION 3 ON */
+
+.section3-on{
+    display:flex;
+    flex-direction: column;
+}
+
+.section3-on .aside1{
+    width:90%;
+}
+
+.section3-on .aside2{
+    display:none;
+}
+
 /* SECTION 4 */
 
 .section4{
@@ -613,6 +718,21 @@ aside button:hover{
 }
 
 .section4 .aside2{
+    display:none;
+}
+
+/* SECTION 4 ON*/
+
+.section4-on{
+    display:flex;
+    flex-direction: column;
+}
+
+.section4-on .aside1{
+    width:90%;
+}
+
+.section4-on .aside2{
     display:none;
 }
 
