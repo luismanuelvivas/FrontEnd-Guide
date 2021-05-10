@@ -190,6 +190,7 @@ section{
     color:#fb3640;
 }
 
+/* SECTION 1 OFF */
 
 .section1{
     background: #fb3640;
@@ -201,7 +202,7 @@ section{
 }
 
 .section1 h2{
-    color:white;
+    color: rgba(255,255,255,0);
     font-size: 38px;
 
      /* Animations */
@@ -210,6 +211,34 @@ section{
 }
 
 .section1 p{
+    color:rgba(0,0,0,0);
+    margin:3%;
+
+     /* Animations */
+    animation-duration: 3s;
+    animation-name: shade;
+}
+
+/* SECTION 1 ON */
+.section1-on{
+    background: #fb3640;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.section1-on h2{
+    color:white;
+    font-size: 38px;
+
+     /* Animations */
+    animation-duration: 3s;
+    animation-name: shade;
+}
+
+.section1-on p{
     color:white;
     margin:3%;
 
