@@ -147,7 +147,7 @@ section{
     animation-name: shade;
 }
 
-#up-arrow{
+.up-arrow{
     transform: rotate(180deg);
 }
 
@@ -161,7 +161,7 @@ section{
     color:#a799b7;
 }
 
-#mid-section1 #up-arrow:hover{
+#mid-section1 .up-arrow:hover{
     color:#fb3640;
 }
 
@@ -170,7 +170,7 @@ section{
     color:#fb3640;
 }
 
-#mid-section2 #up-arrow:hover{
+#mid-section2 .up-arrow:hover{
     font-size:80px;
     color:#fdca40;
 }
@@ -180,12 +180,12 @@ section{
     color:#72147e;
 }
 
-#mid-section3 #up-arrow:hover{
+#mid-section3 .up-arrow:hover{
     font-size:80px;
     color:#a799b7;
 }
 
-#mid-section4 #up-arrow:hover{
+#mid-section4 .up-arrow:hover{
     font-size:80px;
     color:#fb3640;
 }
