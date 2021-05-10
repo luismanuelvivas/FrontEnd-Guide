@@ -125,6 +125,11 @@ section{
     color:#a799b7;
 }
 
+#mid-section4 #up-arrow:hover{
+    font-size:80px;
+    color:#fb3640;
+}
+
 
 .section1{
     background: #fb3640;
@@ -352,6 +357,14 @@ aside button:hover{
     background:#a799b7;
 }
 
+#mid-section3{
+    background:#fb3640;
+}
+
+#mid-section4{
+    background:#72147e;
+}
+
 /* FOOTER */
 .footer{
     width:100%;
@@ -394,9 +407,6 @@ aside button:hover{
 
 .footer a:hover{
     font-weight:bold;
-}
-#mid-section3{
-    background:#fb3640;
 }
 
 /* ANIMATIONS */
