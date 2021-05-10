@@ -64,6 +64,15 @@ buttonUp3.onclick = () => {
     section4.className = 'section4'
 }
 
+//button 3
+buttonDown4.onclick = () => {
+    section4.className = 'section4'
+}
+
+buttonUp4.onclick = () => {
+    section4.className = 'section4-on'
+}
+
 
 
 
