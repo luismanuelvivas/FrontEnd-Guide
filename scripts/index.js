@@ -1,6 +1,6 @@
 //HEADER ANIMATION
-const buttonDown = document.querySelector('#down-arrow')
-const buttonUp = document.querySelector('#up-arrow')
+const buttonDown = document.querySelector('#down-arrow1')
+const buttonUp = document.querySelector('#up-arrow1')
 const header = document.querySelector('header')
 
 buttonDown.onclick = () => {
